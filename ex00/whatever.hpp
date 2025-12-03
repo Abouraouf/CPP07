@@ -3,7 +3,8 @@
 
 //what is a template
 //what is the type of parameters that it takes
-//what 
+//what ia the ::
+//where are they stored
 template <typename T>
 void swap(T& a, T& b)
 {

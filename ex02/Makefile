@@ -2,7 +2,7 @@ NAME =  program
 SOURCES = main.cpp
 FLAGS = -Wall -Wextra -Werror -std=c++98
 OBJ = $(SOURCES:.cpp=.o)
-HEADER = iter.hpp 
+HEADER = Array.hpp 
 %.o: %.cpp $(HEADER)
 	c++ $(FLAGS) -c $< -o $@
 
